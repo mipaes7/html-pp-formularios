@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>El Club Viejuner</legend>
+                <label for="nombre" >Nombre</label> <br>
+                <input type="text" id="nombre" autofocus name="inputnombre"> <br>
+                <label for="apellidos">Apellidos</label> <br>
+                <input type="text" id="apellidos" name="inputapellidos"> <br>
+                <label for="edad">Edad</label> <br>
+                <input type="number" id="edad" name="inputedad"> <br>
+                <label for="sexoH">Hombre</label> 
+                <input type="radio" id="sexoH" name="rButton"> 
+                <label for="sexoM">Mujer</label> 
+                <input type="radio" id="sexoM" name="rButton"> <br>
+                <label for="eresViejuner">¿Te sientes viejuner?</label>
+                <input type="checkbox" id="eresViejuner" name="inputcheckbox"> <br>
+                <label for="aboutYou">Sobre Ti</label> <br>
+                <textarea name="areatexto" id="aboutYou" cols="30" rows="10"></textarea> <br>
+                <label for="email">Correo electrónico</label> <br>
+                <input type="email" id="email" name="emailinput"> <br>
+                <label for="tlf">Teléfono</label> <br>
+                <input type="tel" id="tlf" name="inputtlf"> <br><br>
+                <input type="submit">&nbsp;&nbsp;&nbsp;<input type="reset">
+            </fieldset>
+        </form>
+        <form action="">
+            <fieldset>
+                <legend>Policía</legend>
+                <label for="fecha">Fecha</label> <br>
+                <input type="date" id="fecha" name="inputfecha"> <br>
+                <label for="hora">Hora</label>  <br>
+                <input type="time" id="hora" name="inputhora"> <br>
+                <label for="color">Color</label> <br>
+                <input type="color" id="color" name="inputcolor"> <br>
+                <label for="precio">Precio</label> <br>
+                <input type="range" id="precio" name="inputprecio" min="0" max="5000"> <br>
+                <label for="bicicleta">Tipo de Bicicleta</label> <br>
+                <select name="bicicleta" id="bicicleta"> <br>
+                    <optgroup label="Paseo">
+                        <option value="señorial">Señorial</option>
+                        <option value="antiplebeyos">Anti-plebeyos</option>
+                        <option value="porencimadelhombro">PorEncimaDelHombro</option>
+                    </optgroup>
+                    <optgroup label="Montaña">
+                        <option value="gamusinos">Gamusinos</option>
+                        <option value="hueleflorespremium">Hueleflores Premium</option>
+                        <option value="fangolover">Fango Lover</option>
+                    </optgroup>
+                    <optgroup label="Carreras">
+                        <option value="metroymedio">Metroymedio</option>
+                        <option value="fluorescenteedition">Fluorescente Edition</option>
+                        <option value="grupitors">Grupitors</option>
+                    </optgroup>
+                </select> <br>
+                <label for="accesorios">Accesorios</label> <br>
+                <select name="inputaccesorios" id="accesorios" multiple> <br>
+                    <option value="ruedines">Ruedines</option>
+                    <option value="pegatinas">Pegatinas</option>
+                    <option value="cesta">Cestita</option>
+                    <option value="bomba">Bomba de aire</option>
+                    <option value="timbre">Timbre</option>
+                    <option value="foco">Foco</option>
+                </select> <br>
+                <label for="marca">Marca</label> <br>
+                <select name="inputmarca" id="marca"> <br>
+                    <option value="specialized">Specialized</option>
+                    <option value="bh">BH</option>
+                    <option value="orbea">Orbea</option>
+                    <option value="cube">Cube</option>
+                </select> <br><br>
+                <input type="submit">&nbsp;&nbsp;&nbsp;<input type="reset">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
